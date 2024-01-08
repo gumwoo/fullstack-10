@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style1.css" rel="stylesheet">
+    <link href="normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=""
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item item1">Logo</div>
+        <div class="flex-item item2"><a href="#">products</a></div>
+        <div class="flex-item item2"><a href="#">service</a></div>
+    </div>
+    <!--  flex박스는 가로로 넣어준다.(이떄 부모 박스에 넣어주기 flex박스는 인라인 블록과 테이블 요소를 합쳤다고 보면 됨.
+이때 flex박스를 사용할때 세로로 배치하고 싶으면 flex-direction:column을 사용해서 세로로 배치한다.
+flex-wrap:wrap은 width가 넘쳤을때 아래로 보낸다는 의미암.
+ flex-grow:를 사용하면 다른 박스보다 크기가 더 커진다.(2배 또는 3배)네이게이션 만들떄 사용된다.
+ -->
+    <div class="test">
+        <div class="item">
+            <h3>Fast shipping</h3>
+            <p>lorem ipsum</p>
+        </div>
+        <div class="item">
+            <h3>good service</h3>
+            <p>lorem ipsum</p>
+        </div>
+        <div class="item">
+            <h3>free coupons</h3>
+            <p>lorem ipsum</p>
+        </div>
+        <div class="item">
+            <h3>new products</h3>
+            <p>lorem ipsum</p>
+        </div>
+    </div>
+
+    <div class="main-background">
+        <h4 class="main-title"> buy our shoes! Now on sale!</h4>
+        <p class="main-content"> alsfdlkfjbsakldfbsdljkbsdklfsJB:KSDJBGSLDKFJAB:FSBDLKJBSDA:FBD:KFSDJBS:KDJBS:DKFjSBDVJSBDV:KSJBK:DBVs:DKJVNSB<br>DBVS:ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ<br>DBVS:DKJVNSBkjfnsdlkvjdjDBVsnsdlkvjdjDBVsdkjfnsdlkvjdj</p>
+        <button class="main-botton"><a href="#">
+                <p class="ll">구매하기</p>
+            </a></button>
+        <div class="elxplain-box">
+            <h2>How we design our shoes</h2>
+            <p>여기에 내용을 넣으dksdfdkfsjnfksdfn<br>sldfjnskfdjlskfdlsdnfsljgnsjdlsnlfsndlfs<br>skldjfnskdjsbkdgsdlfnslgsndlgjsdlgsdjfls세요.</p>
+        </div>
+
+        <form class="dl">
+            <input type="text" value="이미 채워진 값" name="age">
+            <input type="password" name="school">
+            <input type="text" placeholder="배경글자">
+            <!-- input name은 인풋 이름으로 어떤 인풋인지 표기, 서버로 전달할 떄 사용된다.-->
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+            <textarea>미리 채워진 값</textarea> <!-- 큰 인풋을 적을때 사용하고 드래그를 하면 박스가 커진다.내가 원하는 사이즈를 만들 수 있다.-->
+            <input type="submit">
+            <button type="submit">전송</button>
+            <!--        여기서 css적용할 때 input으로 하면 전체 다 적용되기 때문에 해당값만 적용하고 싶을 떈 input[속성명=속성값] 이런식으로 넣어준다.-->
+
+        </form>
+    </div>
+
+
+</body></html>
